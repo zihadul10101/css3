@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{/*The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay.*/
+           width: 200px; 
+           height: 200px;
+           border: 100px solid cyan;
+           background-image: url(images/rt.jpg);
+           transition:width 5s ease-in 1s ;
+           transform:scale(2)
+        }
+       .box:hover{
+           
+           width: 5000px;
+       } 
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Transition</h1>
+    </div>
+</body>
+</html>
